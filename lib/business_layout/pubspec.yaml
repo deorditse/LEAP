@@ -1,0 +1,25 @@
+name: business_layout
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  data_layout:
+    path: ../data_layout
+  models:
+    path: ../models
+  file_picker: ^5.2.3
+  get: ^4.6.5
+  fl_chart: ^0.55.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
